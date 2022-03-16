@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/pouring-party-drinks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif !important;
+}
+/* provicional h1 */
+h1{
+    color: #FFCA03;
+    text-align: center;
+    letter-spacing: 3px;
+}
+#description{
+    color: #d3d0d0;
+    font-size: 1.3em;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.3em;
+    text-align: justify;
+    margin: 0px;
+    /* padding:0 50px 0px 50px; */
+}
+.container{
+    width:408px;
+    background: rgba(65, 61, 61, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-items:flex-start;
+    padding: 50px;
+
+}
+label, p{
+    color: #E6E6E6;
+    font-size: 1.2em;
+    padding-bottom: 15px;
+    margin:0px;
+}
+#name ,#number , #email, #fecha , #dropdown{
+    width: 300px;
+    background: rgba(65, 61, 61, 0.8);
+    border: none;
+    border-bottom:3px solid #FFCA03;
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+
+}
+#msg{
+    margin: 15px;
+}
+button{
+    width:315px;
+    border: none;
+    background: #FFCA03;
+    padding: 10px;
+    margin: 15px;
+    
+}
+.spac1, .spac2{
+    margin-top: 10px;
+}
+
+
