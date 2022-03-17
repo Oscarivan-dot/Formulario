@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Reservas</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title" >Reserva aqui</h1>
+        <p id="description">Una forma facil y rapida de disfurtar una noche inolvidable de fiesta, es hacer
+             tus reservas aqui, sin intermediarios.
+        </p>
+
+        <form action="" id="survey-form">
+            <label id="name-label" for="">Nombre</label><br>
+            <input id="name" type="text" placeholder="Escribe tu nombre"><br>
+            <label id="email-label" for="" >Email</label><br>
+            <input id="email" type="email" placeholder="Email" required><br>
+            <label id="number-label" for="">Numero telefonico</label><br>
+            <input id="number" minlength="10" maxlength="10" type="text" placeholder="Numero celular" required pattern="[0-9]+"><br>
+            <label for="">Hay alguna ocasión especial que desees celebrar</label><br>
+            <select name="" id="dropdown">
+                <option value="cumpleaños">Cumpleaños</option>
+                <option value="grado">Grado</option>
+                <option value="empresarial">Reunion empresarial</option>
+            </select>
+            <p>Cual es el numero de personas que te acompañaran</p>
+            <label for=""><input type="radio" name="numeroPersonas"> 8 a 15 personas</label><br>
+            <label for=""><input type="radio" name="numeroPersonas"> 15 a 30 personas</label><br>
+            <label for=""><input type="radio" name="numeroPersonas"> 30 en adelante</label>
+            
+            <p class="spac2">Danos una hora aproximada de tu llegada </p>
+            <label for=""><input type="checkbox" value="siete"> 7:30 pm</label><br>
+            <label for=""><input type="checkbox" value="ocho"> 8:30 pm</label><br>
+            <label for=""><input type="checkbox" value="nueve"> 9:00 pm</label><br>
+            <p class="spac1">Fecha<p><br>
+            <input id="fecha" type="date">
+            <p>Observaciones o sugerencias</p>
+            <textarea name="" id="msg" cols="40" rows="10"></textarea><br>
+            <button id="submit">Enviar</button>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
